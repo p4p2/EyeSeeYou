@@ -49,11 +49,6 @@ echo -e "${CYAN}[+] Running assetfinder:${NC}"
 assetfinder --subs-only $TARGET | tee -a recon-$TARGET/subs.txt
 echo
 
-# Live Host Detection
-echo -e "${CYAN}[+] Checking live hosts (httpx):${NC}"
-sort -u recon-$TARGET/subs.txt | httpx -silent | tee recon-$TARGET/live.txt
-echo
-
 # Archived URLs
 echo -e "${CYAN}[+] Getting Wayback URLs:${NC}"
 cat recon-$TARGET/subs.txt | waybackurls | tee recon-$TARGET/wayback.txt

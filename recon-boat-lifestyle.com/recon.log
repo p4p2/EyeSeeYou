@@ -1,0 +1,236 @@
+[0;32m[+] Starting Recon on: boat-lifestyle.com[0m
+
+[0;36m[+] nslookup IP address:[0m
+Address:	8.8.8.8#53
+Name:	boat-lifestyle.com
+Address: 23.227.38.32
+
+[0;36m[+] Whois information:[0m
+   Registrar WHOIS Server: Whois.bigrock.com
+   Registrar URL: http://www.bigrock.com
+   Creation Date: 2014-06-01T07:06:56Z
+   Registrar: BigRock Solutions Ltd
+   Registrar IANA ID: 1495
+   Registrar Abuse Contact Email: abuse@bigrock.com
+   Registrar Abuse Contact Phone: +1.832-295-1535
+   Name Server: NS-1119.AWSDNS-11.ORG
+   Name Server: NS-1814.AWSDNS-34.CO.UK
+   Name Server: NS-226.AWSDNS-28.COM
+   Name Server: NS-514.AWSDNS-00.NET
+Registrars.
+
+[0;36m[+] DNS Records (dig):[0m
+boat-lifestyle.com.	300	IN	A	23.227.38.32
+boat-lifestyle.com.	21600	IN	NS	ns-514.awsdns-00.net.
+boat-lifestyle.com.	21600	IN	NS	ns-226.awsdns-28.com.
+boat-lifestyle.com.	21600	IN	NS	ns-1119.awsdns-11.org.
+boat-lifestyle.com.	21600	IN	NS	ns-1814.awsdns-34.co.uk.
+boat-lifestyle.com.	900	IN	SOA	ns-1119.awsdns-11.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+boat-lifestyle.com.	300	IN	MX	0 mail.boat-lifestyle.com.
+boat-lifestyle.com.	300	IN	TXT	"v=spf1 include:shops.shopify.com ~all"
+boat-lifestyle.com.	300	IN	TXT	"google-site-verification=rQuLW0dSJ2Sr07zYbiUpU5Zk0FgY4dnNx-8Drikzx_8"
+
+[0;36m[+] Subdomain brute (host):[0m
+www.boat-lifestyle.com has address 23.227.38.32
+mail.boat-lifestyle.com has address 31.193.136.168
+ftp.boat-lifestyle.com has address 31.193.136.168
+test.boat-lifestyle.com has address 13.126.239.116
+
+[0;36m[+] Running subfinder:[0m
+auth.boat-lifestyle.com
+dtc.boat-lifestyle.com
+wearable-hub-api.boat-lifestyle.com
+test.boat-lifestyle.com
+www.boat-lifestyle.com
+subscribe.boat-lifestyle.com
+naavik.boat-lifestyle.com
+testserial.boat-lifestyle.com
+boat-lifestyle.com
+backup.boat-lifestyle.com
+www.subscribe.boat-lifestyle.com
+demo2.boat-lifestyle.com
+www.support.boat-lifestyle.com
+o1325.ptr5680.subscribers.boat-lifestyle.com
+retailer-admin.boat-lifestyle.com
+webdisk.boat-lifestyle.com
+shopify.boat-lifestyle.com
+wearable-api.boat-lifestyle.com
+delivery.subscribe.boat-lifestyle.com
+o1641.ptr7448.sender.boat-lifestyle.com
+o1326.ptr2963.subscribers.boat-lifestyle.com
+webmail.boat-lifestyle.com
+community.boat-lifestyle.com
+support.boat-lifestyle.com
+f.boat-lifestyle.com
+o1327.ptr7660.subscribers.boat-lifestyle.com
+wearable-app.boat-lifestyle.com
+mail.boat-lifestyle.com
+o2038.ptr4846.alerts.boat-lifestyle.com
+clevertap.boat-lifestyle.com
+testauth.boat-lifestyle.com
+warranty.boat-lifestyle.com
+serial.boat-lifestyle.com
+devretailer.boat-lifestyle.com
+www.shopify.boat-lifestyle.com
+app.boat-lifestyle.com
+boatshop.boat-lifestyle.com
+wearable-hub.boat-lifestyle.com
+cpcalendars.boat-lifestyle.com
+dev-wearable.boat-lifestyle.com
+wearable-hub-lambda.boat-lifestyle.com
+imagine-boat-auth.boat-lifestyle.com
+www.naavik.boat-lifestyle.com
+www.mail.boat-lifestyle.com
+cpanel.boat-lifestyle.com
+wearable.boat-lifestyle.com
+api-gst.boat-lifestyle.com
+campaign.boat-lifestyle.com
+cpcontacts.boat-lifestyle.com
+demo.boat-lifestyle.com
+
+[0;36m[+] Running assetfinder:[0m
+o2038.ptr4846.alerts.boat-lifestyle.com
+api-gst.boat-lifestyle.com
+app.boat-lifestyle.com
+boatshop.boat-lifestyle.com
+clevertap.boat-lifestyle.com
+community.boat-lifestyle.com
+devretailer.boat-lifestyle.com
+dtc.boat-lifestyle.com
+f.boat-lifestyle.com
+mail.boat-lifestyle.com
+o1641.ptr7448.sender.boat-lifestyle.com
+o1326.ptr2963.subscribers.boat-lifestyle.com
+o1325.ptr5680.subscribers.boat-lifestyle.com
+o1327.ptr7660.subscribers.boat-lifestyle.com
+test.boat-lifestyle.com
+warranty.boat-lifestyle.com
+wearable-hub.boat-lifestyle.com
+webmail.boat-lifestyle.com
+www.boat-lifestyle.com
+boat-lifestyle.com
+wearable-hub-lambda.boat-lifestyle.com
+demo.boat-lifestyle.com
+boat-lifestyle.com
+boat-lifestyle.com
+wearable-hub-api.boat-lifestyle.com
+support.boat-lifestyle.com
+imagine-boat-auth.boat-lifestyle.com
+wearable.boat-lifestyle.com
+wearable-api.boat-lifestyle.com
+testserial.boat-lifestyle.com
+serial.boat-lifestyle.com
+naavik.boat-lifestyle.com
+www.naavik.boat-lifestyle.com
+campaign.boat-lifestyle.com
+demo2.boat-lifestyle.com
+auth.boat-lifestyle.com
+backup.boat-lifestyle.com
+support.boat-lifestyle.com
+www.support.boat-lifestyle.com
+shopify.boat-lifestyle.com
+auth.boat-lifestyle.com
+support.boat-lifestyle.com
+testauth.boat-lifestyle.com
+test.boat-lifestyle.com
+mail.boat-lifestyle.com
+www.mail.boat-lifestyle.com
+shopify.boat-lifestyle.com
+www.shopify.boat-lifestyle.com
+boat-lifestyle.com
+cpanel.boat-lifestyle.com
+cpcalendars.boat-lifestyle.com
+cpcontacts.boat-lifestyle.com
+webdisk.boat-lifestyle.com
+webmail.boat-lifestyle.com
+www.boat-lifestyle.com
+boat-lifestyle.com
+www.boat-lifestyle.com
+subscribe.boat-lifestyle.com
+www.subscribe.boat-lifestyle.com
+boat-lifestyle.com
+cpanel.boat-lifestyle.com
+cpcalendars.boat-lifestyle.com
+cpcontacts.boat-lifestyle.com
+mail.boat-lifestyle.com
+webdisk.boat-lifestyle.com
+webmail.boat-lifestyle.com
+www.boat-lifestyle.com
+boat-lifestyle.com
+cpanel.boat-lifestyle.com
+mail.boat-lifestyle.com
+webdisk.boat-lifestyle.com
+webmail.boat-lifestyle.com
+www.boat-lifestyle.com
+boat-lifestyle.com
+mail.boat-lifestyle.com
+webdisk.boat-lifestyle.com
+webmail.boat-lifestyle.com
+www.boat-lifestyle.com
+boat-lifestyle.com
+mail.boat-lifestyle.com
+www.boat-lifestyle.com
+
+[0;36m[+] Getting Wayback URLs:[0m
+./EyeSeeYou.sh: line 54: waybackurls: command not found
+
+[0;36m[+] Running Nmap quick scan:[0m
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-15 10:59 IST
+Nmap scan report for boat-lifestyle.com (23.227.38.32)
+Host is up (0.047s latency).
+rDNS record for 23.227.38.32: myshopify.com
+Not shown: 96 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 2.31 seconds
+
+[0;36m[+] Running Nmap full scan (top 1000 ports):[0m
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-15 10:59 IST
+Nmap scan report for boat-lifestyle.com (23.227.38.32)
+Host is up (0.045s latency).
+rDNS record for 23.227.38.32: myshopify.com
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.boat-lifestyle.com/
+443/tcp  open  ssl/http Cloudflare http proxy
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: cloudflare
+| ssl-cert: Subject: commonName=boat-lifestyle.com
+| Subject Alternative Name: DNS:boat-lifestyle.com
+| Not valid before: 2025-03-29T20:27:04
+|_Not valid after:  2025-06-27T21:27:00
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+|_http-title: Did not follow redirect to https://www.boat-lifestyle.com/
+8080/tcp open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Attention Required! | Cloudflare
+8443/tcp open  ssl/http Cloudflare http proxy
+| ssl-cert: Subject: commonName=boat-lifestyle.com
+| Subject Alternative Name: DNS:boat-lifestyle.com
+| Not valid before: 2025-03-29T20:27:04
+|_Not valid after:  2025-06-27T21:27:00
+|_http-title: Attention Required! | Cloudflare
+|_http-server-header: cloudflare
+|_ssl-date: TLS randomness does not represent time
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+| tls-alpn: 
+|   h2
+|_  http/1.1
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 24.52 seconds
+
+[0;32m[+] Recon completed. Results saved in recon-boat-lifestyle.com/[0m
