@@ -1,0 +1,166 @@
+[0;32m[+] Starting Recon on: oziva.in[0m
+
+[0;36m[+] nslookup IP address:[0m
+Address:	8.8.8.8#53
+Name:	oziva.in
+Address: 23.227.38.32
+
+[0;36m[+] Whois information:[0m
+Registrar WHOIS Server:
+Registrar URL: www.godaddy.com
+Creation Date: 2016-04-25T05:30:07Z
+Registrar: GoDaddy.com, LLC
+Registrar IANA ID: 146
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone:
+Registry Registrant ID: REDACTED FOR PRIVACY
+Registrant Name: REDACTED FOR PRIVACY
+Registrant Organization:
+Registrant Street: REDACTED FOR PRIVACY
+Registrant Street: REDACTED FOR PRIVACY
+Registrant Street: REDACTED FOR PRIVACY
+Registrant City: REDACTED FOR PRIVACY
+Registrant State/Province: Maharashtra
+Registrant Postal Code: REDACTED FOR PRIVACY
+Registrant Country: IN
+Registrant Phone: REDACTED FOR PRIVACY
+Registrant Phone Ext: REDACTED FOR PRIVACY
+Registrant Fax: REDACTED FOR PRIVACY
+Registrant Fax Ext: REDACTED FOR PRIVACY
+Registrant Email: Please contact the Registrar listed above
+Admin Email: Please contact the Registrar listed above
+Tech Email: Please contact the Registrar listed above
+Name Server: ns50.domaincontrol.com
+Name Server: ns49.domaincontrol.com
+Access to .IN WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the .IN registry database. The data in this record is provided by .IN Registry for informational purposes only ,and .IN does not guarantee its accuracy.  This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to (a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator or a Registrar, or NIXI except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. .IN reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
+
+[0;36m[+] DNS Records (dig):[0m
+oziva.in.		3600	IN	A	23.227.38.32
+oziva.in.		3600	IN	NS	ns49.domaincontrol.com.
+oziva.in.		3600	IN	NS	ns50.domaincontrol.com.
+oziva.in.		600	IN	SOA	ns49.domaincontrol.com. dns.jomax.net. 2025031600 28800 7200 604800 600
+oziva.in.		3600	IN	MX	5 alt1.aspmx.l.google.com.
+oziva.in.		3600	IN	MX	10 aspmx3.googlemail.com.
+oziva.in.		3600	IN	MX	10 aspmx2.googlemail.com.
+oziva.in.		3600	IN	MX	5 alt2.aspmx.l.google.com.
+oziva.in.		3600	IN	MX	1 aspmx.l.google.com.
+oziva.in.		3600	IN	TXT	"google-site-verification=Hn023QA15H9xolUD2dlmmIBO9XXBJHTZNnpVtWz9vL8"
+oziva.in.		3600	IN	TXT	"google-site-verification=W5-TKMR3THB4XQ8JwrxQeAp4S3BR82uybuuuHG66OqM"
+oziva.in.		3600	IN	TXT	"v=spf1 include:_spf.google.com include:shops.shopify.com include:sendgrid.net ~all include:mail.zendesk.com ~all"
+oziva.in.		3600	IN	TXT	"google-site-verification=QgDLPWUn60FTene1Tcg_bQS501IX2sSdrLP3Y9cHzb0"
+
+[0;36m[+] Subdomain brute (host):[0m
+www.oziva.in is an alias for oziva.myshopify.com.
+oziva.myshopify.com is an alias for shops.myshopify.com.
+shops.myshopify.com has address 23.227.38.74
+shops.myshopify.com has IPv6 address 2620:127:f00f:e::
+mail.oziva.in mail is handled by 10 aspmx2.googlemail.com.
+mail.oziva.in mail is handled by 1 aspmx.l.google.com.
+mail.oziva.in mail is handled by 5 alt1.aspmx.l.google.com.
+mail.oziva.in mail is handled by 10 aspmx3.googlemail.com.
+mail.oziva.in mail is handled by 5 alt2.aspmx.l.google.com.
+
+[0;36m[+] Running subfinder:[0m
+checkoutv2.oziva.in
+app.oziva.in
+chatwoot.dev.oziva.in
+www.blog.prod.oziva.in
+checkout.dev.oziva.in
+shop.oziva.in
+www.blog.oziva.in
+prod.oziva.in
+consult.oziva.in
+www.oziva.in
+email.bik.oziva.in
+blog.oziva.in
+shopifyapp.oziva.in
+blog.prod.oziva.in
+checkout-preprod.dev.oziva.in
+checkout-b.oziva.in
+ftp.oziva.in
+checkout.oziva.in
+dev.oziva.in
+fitness.oziva.in
+link.oziva.in
+temp-checkout.dev.oziva.in
+web.oziva.in
+blogtest.oziva.in
+store.oziva.in
+products.dev.oziva.in
+help.oziva.in
+metabase.dev.oziva.in
+o2568.msg.oziva.in
+www.app.oziva.in
+marathon.oziva.in
+
+[0;36m[+] Running assetfinder:[0m
+./EyeSeeYou.sh: line 49: assetfinder: command not found
+
+[0;36m[+] Checking live hosts (httpx):[0m
+Usage: httpx [OPTIONS] URL
+
+Error: No such option: -s
+
+[0;36m[+] Getting Wayback URLs:[0m
+./EyeSeeYou.sh: line 59: waybackurls: command not found
+
+[0;36m[+] Running Nmap quick scan:[0m
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-15 10:35 IST
+Nmap scan report for oziva.in (23.227.38.32)
+Host is up (0.047s latency).
+rDNS record for 23.227.38.32: myshopify.com
+Not shown: 96 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 2.40 seconds
+
+[0;36m[+] Running Nmap full scan (top 1000 ports):[0m
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-15 10:35 IST
+Nmap scan report for oziva.in (23.227.38.32)
+Host is up (0.047s latency).
+rDNS record for 23.227.38.32: myshopify.com
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-title: Did not follow redirect to https://www.oziva.in/
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+|_http-title: Did not follow redirect to https://www.oziva.in/
+| tls-alpn: 
+|   h2
+|_  http/1.1
+|_http-server-header: cloudflare
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=oziva.in
+| Subject Alternative Name: DNS:oziva.in
+| Not valid before: 2025-03-28T13:05:29
+|_Not valid after:  2025-06-26T14:05:22
+8080/tcp open  http     Cloudflare http proxy
+|_http-title: Attention Required! | Cloudflare
+|_http-server-header: cloudflare
+8443/tcp open  ssl/http Cloudflare http proxy
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+| ssl-cert: Subject: commonName=oziva.in
+| Subject Alternative Name: DNS:oziva.in
+| Not valid before: 2025-03-28T13:05:29
+|_Not valid after:  2025-06-26T14:05:22
+|_http-server-header: cloudflare
+| tls-alpn: 
+|   h2
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+|_http-title: Attention Required! | Cloudflare
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 25.00 seconds
+
+[0;32m[+] Recon completed. Results saved in recon-oziva.in/[0m
